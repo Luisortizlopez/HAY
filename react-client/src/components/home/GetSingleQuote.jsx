@@ -5,6 +5,13 @@ const style = {
   backgroundColor: 'black'
 }
 
+const styles = {
+  width: '100%',
+  height: '40%',
+  position: 'absolute',
+  left: '13px'
+}
+
 export default class GetSingleQuote extends React.Component {
   constructor(props) {
     super(props);
@@ -62,7 +69,15 @@ export default class GetSingleQuote extends React.Component {
               </div>
             </div>
           </div>
+
           <div id='QuotesInTheCenter' className="col-md-6">
+            <div>
+            <img src="https://i.imgur.com/49Ge8o3.jpg?1" alt="bann" style={styles} />
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <br/>
             <br/>
             <br/>

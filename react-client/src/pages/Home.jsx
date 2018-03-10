@@ -3,7 +3,6 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 
-
 import HeaderBar from "../components/home/HeaderBar.jsx";
 import HolaCode from "../components/home/HolaCode.jsx";
 import GetSingleQuote from "../components/home/GetSingleQuote.jsx";
